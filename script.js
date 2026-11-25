@@ -1,4 +1,4 @@
-// Get HTML elements
+// call HTML elements
 
 let taskInput = document.getElementById("taskInput");
 let categoryInput = document.getElementById("categoryInput");
