@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <script src="script.js" defer></script>
+
+    <title>SBA 4</title>
+</head>
+<body>
+
+    <h1>Task Management App</h1>
+
+    <input id="taskInput" type="text" placeholder="Enter a task">
+
+    <select id="categoryInput">
+        <option value="Work">Work</option>
+        <option value="Personal">Personal</option>
+        <option value="School">School</option>
+    </select>
+
+    <input id="deadlineInput" type="date">
+
+    <select id="statusInput">
+        <option value="Pending">Pending</option>
+        <option value="In Progress">In Progress</option>
+        <option value="Completed">Completed</option>
+    </select>
+
+    <button id="addTaskButton">Add Task</button>
+
+    <h2>Filter Tasks</h2>
+
+    <select id="filterStatus">
+        <option value="All">All Statuses</option>
+        <option value="Pending">Pending</option>
+        <option value="In Progress">In Progress</option>
+        <option value="Completed">Completed</option>
+        <option value="Overdue">Overdue</option>
+    </select>
+
+    <select id="filterCategory">
+        <option value="All">All Categories</option>
+        <option value="Work">Work</option>
+        <option value="Personal">Personal</option>
+        <option value="School">School</option>
+    </select>
+
+    <h2>My Tasks</h2>
+
+    <ul id="taskList"></ul>
+
+    
+</body>
+</html>
