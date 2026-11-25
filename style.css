@@ -1,0 +1,104 @@
+/* General page styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: powderblue;
+    margin: 0;
+    padding: 3px;
+}
+
+
+/* Main heading */
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+
+/* Section headings */
+
+h2 {
+    color: #333;
+}
+
+
+/* Input fields and dropdowns */
+
+input, select {
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+
+
+/* Add Task button */
+
+#addTaskButton {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addTaskButton:hover {
+    background-color: navy;
+}
+
+/* Task list */
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* Individual tasks */
+
+#taskList li {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+/* Complete button */
+
+.complete-btn {
+    background-color: green;
+    color: white;
+    padding: 7px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Remove button */
+
+.remove-btn {
+    background-color: red;
+    color: white;
+    padding: 7px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Button hover effects */
+
+.complete-btn:hover {
+    background-color: darkgreen;
+}
+
+.remove-btn:hover {
+    background-color: darkred;
+}
